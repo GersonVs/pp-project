@@ -1,4 +1,4 @@
-<h1 id='project-name'>PP Project</h1>
+<h1 id='project-name'>PP Project Frontend</h1>
 
 <img src="first-page.png" alt="exemplo imagem">
 
@@ -20,9 +20,9 @@ Before starting, make sure you've met the following requirements:
 ## 🚀 How to run
 
 1 - `clone this repository`
-2 - `cd clone directory`
+2 - `cd clone directory/pp-frontend`
 3 - run `yarn` for install dependencies
-4 - run `yarn dev` for start development server 
+4 - run `yarn dev` for start development server at port 3000
 
 
 

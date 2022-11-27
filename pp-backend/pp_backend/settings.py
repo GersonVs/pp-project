@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # 3th apps
     'django_extensions',
+    'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
     # local apps
