@@ -17,6 +17,13 @@
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.15.tgz#32c65517a09320b62530867345222fde7794fbe1"
   integrity sha512-lhz6UNPMDXUhtXSulw8XlFAtSYO26WmHQnCi2Lg2p+/TMiJKNLtZCYUxV4wG6rZMzXmr8InGpNwk+DLT2Hm0PA==
 
+"@onesignal/onesignal-vue3@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@onesignal/onesignal-vue3/-/onesignal-vue3-1.0.2.tgz#e7b718af738a1ae0ac55a5e3c03e8d14845d81bf"
+  integrity sha512-vII2s7/e8veseex0hKWJHbVZDkFTh/WO76DfVvrAq0IJKv9c216TXDp3Xs6WDRQoODgPhpvI3TnHq8i1E2u+Vw==
+  dependencies:
+    vue "^3.2.0"
+
 "@popperjs/core@^2.11.6":
   version "2.11.6"
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.6.tgz#cee20bd55e68a1720bdab363ecf0c821ded4cd45"
@@ -553,7 +560,7 @@ vue-router@4:
   dependencies:
     "@vue/devtools-api" "^6.4.5"
 
-vue@^3.2.41:
+vue@^3.2.0, vue@^3.2.41:
   version "3.2.45"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.45.tgz#94a116784447eb7dbd892167784619fef379b3c8"
   integrity sha512-9Nx/Mg2b2xWlXykmCwiTUCWHbWIj53bnkizBxKai1g61f2Xit700A1ljowpTIM11e3uipOeiPcSqnmBg6gyiaA==

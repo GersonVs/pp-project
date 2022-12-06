@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@onesignal/onesignal-vue3": "^1.0.2",
     "@popperjs/core": "^2.11.6",
     "@sweetalert2/themes": "^5.0.15",
     "axios": "^1.2.0",
