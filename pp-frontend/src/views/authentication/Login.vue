@@ -22,6 +22,7 @@
 <script>
 
 	import axios from 'axios';
+	const env = import.meta.env;
 
 	export default {
 		data() {
@@ -30,6 +31,11 @@
 					username: '',
 					password: ''
 				}
+			}
+		},
+		computed: {
+			backendHost() {
+				return env.VITE_BACKEND_HOST
 			}
 		},
 		created() {
@@ -41,7 +47,7 @@
 
 				const payload = this.postBody
 
-				await axios.post('http://localhost:8000/authentication/api/token/', this.postBody)
+				await axios.post(`${this.backendHost}/authentication/api/token/`, this.postBody)
 				.then(response => {
 					localStorage.setItem('userData', JSON.stringify(response.data))
 					window.location.href = '/'
